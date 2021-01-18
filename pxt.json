@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "midi": "github:microsoft/pxt-midi#v2.1.11"
+        "midi": "github:microsoft/pxt-midi#v2.1.11",
+        "microphone": "*"
     },
     "files": [
         "main.blocks",

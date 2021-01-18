@@ -1,3 +1,4 @@
+basic.showIcon(IconNames.EigthNote)
 basic.forever(function () {
     if (pins.analogReadPin(AnalogPin.P1) > 600) {
         music.playTone(262, music.beat(BeatFraction.Half))
