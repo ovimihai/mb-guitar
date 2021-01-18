@@ -1,3 +1,4 @@
+basic.clearScreen()
 basic.showIcon(IconNames.EigthNote)
 basic.forever(function () {
     if (pins.analogReadPin(AnalogPin.P1) > 600) {
